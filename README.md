@@ -41,3 +41,5 @@ if __name__ == "__main__":
     logger.error("This is what ERROR looks like.")
     logger.critical("This is what CRITICAL looks like.")
 ```
+
+![](./example2.png)
