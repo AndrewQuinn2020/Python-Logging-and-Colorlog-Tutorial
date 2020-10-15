@@ -1,4 +1,4 @@
-# Python-Logging-and-Colorlog-Tutorial
+# Python `logging` and `colorlog` Tutorial
 
 A very simple file that shows you how to use `logging` and `colorlog` to
 create nice error messages in Python.
@@ -41,3 +41,5 @@ if __name__ == "__main__":
     logger.error("This is what ERROR looks like.")
     logger.critical("This is what CRITICAL looks like.")
 ```
+
+![](./example2.png)
