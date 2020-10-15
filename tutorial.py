@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-import logging     # installed by default
-import colorlog    # run python -m pip install colorlog
+import logging  # installed by default
+
+import colorlog  # run python -m pip install colorlog
 
 # Setup
 
