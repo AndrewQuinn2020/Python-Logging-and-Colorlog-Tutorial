@@ -13,7 +13,11 @@ import colorlog    # run python -m pip install colorlog
 
 # Setup
 
-logger = logging.getLogger()
+# We use __name__ to give our logger a unique name for this file.
+# If you're using, say, Matplotlib alongside this code snippet,
+# logging.getLogger() will actually cause *both* Matplotlib's debug
+# messages *and* your own ones to write to stdout!
+logger = logging.getLogger(__name__)
 logger.setLevel(colorlog.colorlog.logging.DEBUG)
 
 handler = colorlog.StreamHandler()
